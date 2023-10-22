@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzard</title>
+    <link rel="stylesheet" href="./styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Kanit:ital,wght@1,800&family=Kaushan+Script&family=Montserrat&family=Poppins:wght@500&family=Ubuntu&family=Work+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    
+    <div class="card">
+        <div class="quiz">
+            <h2 id="question"></h2>
+        </div>
+
+        <div class="option-container">
+            <button class="option-btn ans1"></button>
+            <button class="option-btn ans2"></button>
+            <button class="option-btn ans3"></button>
+            <button class="option-btn ans4"></button>
+        </div>
+
+        <button id="next-btn">Next</button>
+
+        <button id="submit-btn">Submit</button>
+    </div>
+
+    <div class="end-card">
+
+        <h2 class="quizzard">Finished !!</h2>
+        <p class="score"> You have scored </p>
+        <button id="playagain-btn">Play again</button>
+    </div>
+
+    <div class="start-card">
+        <h3>Welcome to <span class="quizzard">Quizzard !!</span></h3>
+        <button id="start-btn">Start</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
